@@ -1,4 +1,4 @@
-name: print-name
+name: deploy-app
 
 on:
   push:
@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print name
-        run: echo "Hello, Jyothi! form github"
+        run: echo "Hello, Jyothi! form deploy-app"
